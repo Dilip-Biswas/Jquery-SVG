@@ -1,0 +1,1046 @@
+
+div.container 
+{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header
+{
+    padding: 0em;
+    color: gray;
+    background-color: white;
+    clear: left;
+    text-align: center;
+	border: 1px solid white;
+	width: 600px;
+	height: 110px;
+}
+
+header img{
+	float :left;
+	width: 210px;
+	height: 110px;
+	position: absolute;
+}
+
+footer 
+{
+    padding: 1em;
+    color: white;
+    background-color: gray;
+    clear: left;
+    text-align: center;
+}
+
+nav 
+{
+    float: left;
+	height: 1837px;
+	width: 300px;
+    margin: 0;
+    padding: 1em;
+	background-color: RGB(255, 230, 242);
+}
+
+.overlayclose
+{
+	
+float: right; 
+	
+}
+
+nav ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul li a 
+{
+    text-decoration: none;
+	font-weight: normal;
+	background-color: RGB(255,255,255);
+}
+
+article
+{
+    margin-left: 300px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background-color: RGB(255, 230, 242);
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+#overlay
+{
+    background-color: white;
+    width: 265px;
+	height: 250px;
+    padding: 25px;
+    margin: 220px;
+	position: absolute;
+	display:none;
+}
+
+#overlay1
+{
+    background-color: white;
+    width: 270px;
+	height: 250px;
+    padding: 25px;
+    margin: 300px;
+	position: absolute;
+	display:none;
+}
+
+#overlay2
+{
+    background-color: white;
+    width: 265px;
+	height: 250px;
+    padding: 25px;
+    margin: 100px;
+	position: absolute;
+	display:none;
+}
+
+#overlay3
+{
+    background-color: white;
+    width: 270px;
+	height: 250px;
+    padding: 25px;
+    margin: 210px;
+	margin-left:630px;
+	position: absolute;
+	display:none;
+}
+
+#overlay4
+{
+    background-color: white;
+    width: 280px;
+	height: 250px;
+    padding: 25px;
+    margin: 210px;
+	margin-left:550px;
+	position: absolute;
+	display:none;
+}
+
+/* This is for the SVG */
+
+.TKP_OB
+{
+	stroke: none;
+	fill: none;
+	opacity: none;
+}
+
+/* This is for Polygon */
+
+.TKP_FL
+{
+	stroke: RGB(0, 51, 0);
+	stroke-width: 0.2px;
+	fill: RGB(87,178,228);
+	/*erste Lösung*/
+	/*opacity: 0.2; */
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	
+	/*z-index : -1;
+	position : absolute;*/
+}
+
+
+/*Lösung mit z-Index */
+
+/*Breisgau-Hochschwarzwald Text*/
+#TKP-00055ac8e0f06894
+{
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255);
+	
+}
+
+/* Freiburg im Breisgau Polygon */
+#TKP-00055a64fc700c3a
+
+{
+	z-index:-100;
+	position: relative;
+	/*fill: RGB(0,0,0); */
+}
+
+/* Schwarzwald-Baar-Kreis Polygon */
+#TKP-00055a64f7f0087b
+{
+	z-index:-100;
+	position: relative;
+	
+}
+/*Breisgau-Hochschwarzwald Polygon 
+TKP-00055a64f54006c1
+{
+	z-index:-1;
+	position: absolute;
+}
+ */
+
+ 
+ /*  Ahrweiler Text */
+ #TKP-00055ac8e6f014f7
+ {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+
+ /*  Neuwied Text */
+#TKP-00055ac8e6204945
+ {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+/* Mainz-Bingen */
+#TKP-00055ac8e1b02c15
+ 
+ {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+
+/* Rhein-Lahn-Kreis */
+#TKP-00055ac8e5c02a9a
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+/* Krefeld */
+#TKP-00055ac8e21050df
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  M&uumllheim an der Ruhr */
+#TKP-00055ac8e75035a8
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Bottrop */
+ #TKP-00055ac8e520691d
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Herne */
+ #TKP-00055ac8e5700be6
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Kleve*/
+ #TKP-00055ac8e4c0465d
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Bielefeld*/
+ #TKP-00055ac8e26071a5
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Vechta*/
+ #TKP-00055ac8e2105501
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Zweibr&uumlcken*/
+ #TKP-00055ac8e55001b8
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Olpe*/
+ #TKP-00055ac8e2d01a8d
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Westerwaldkreis*/
+ #TKP-00055ac8e4d04a6f
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Schaumburg*/
+ #TKP-00055ac8e3d0706d
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Minden-L&uumlbbecke*/
+ #TKP-00055ac8e3504788
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* H&oumlxter*/
+ #TKP-00055ac8e4301333
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Konstanz*/
+ #TKP-00055ac8e2b00a26
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Bodenseekreis*/
+ #TKP-00055ac8e440195d
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Miltenberg*/
+ #TKP-00055ac8e75037b9
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Heilbronn is not working with ID !!!*/
+ #TKP-00055ac8e4b0403b
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /* Alb-Donau-Kreis*/
+ #TKP-00055ac8e0b05214
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /* Freiburg im Breisgau*/
+ #TKP-00055ac8e3604fbc
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+  
+  /* Sigmaringen*/
+ #TKP-00055ac8e530756c
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ 
+  /*  T&uumlbingen*/
+ #TKP-00055ac8e6e00cc6
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ 
+  /*  Neckar-Odenwald-Kreis*/
+ #TKP-00055ac8e3303938
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Hohenlohekreis*/
+ #TKP-00055ac8e50060f9
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Enzkreis*/
+ #TKP-00055ac8e640579b
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /* Heidelberg*/
+ #TKP-00055ac8e5a01e55
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /* Mannheim*/
+ #TKP-00055ac8e2b00c37
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /* Kaiserslautern*/
+ #TKP-00055ac8e7302963
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /* Kaiserslautern 2 times*/
+ #TKP-00055ac8e4702bc5
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /* Ludwigshafen am Rhein*/
+ #TKP-00055ac8e3905e08
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /* Speyer*/
+ #TKP-00055ac8e6f010d5
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+
+ /* Rhein-Pfalz-Kreis*/
+ #TKP-00055ac8e4b0424c
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Bad D&uumlrkheim*/
+ #TKP-00055ac8e6a0763f
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Darmstadt-Dieburg*/
+ #TKP-00055ac8e3a0621a
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /* Alzey-Worms*/
+ #TKP-00055ac8e6003aee
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Offenbach*/
+ #TKP-00055ac8e150073e
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Rheinisch-Bergischer Kreis*/
+ #TKP-00055ac8e140011c
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /* Ennepe-Ruhr-Kreis*/
+ #TKP-00055ac8e4802dcc
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Regionalverband Saarbr&uumlcken*/
+ #TKP-00055ac8e41008ff
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+
+ /* Saarpfalz-Kreis*/
+ #TKP-00055ac8e27073a5
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* S&uumldliche Weinstra&szlige*/
+ #TKP-00055ac8e3a0642b
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* S&uumldwestpfalz*/
+ #TKP-00055ac8e0b05003
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Worms*/
+ #TKP-00055ac8e37051bc
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Mainz*/
+ #TKP-00055ac8e0c0583d
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /* Oberhausen*/
+ #TKP-00055ac8e7403197
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Mettmann*/
+ #TKP-00055ac8e5507b85
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+
+ /*  M&oumlnchengladbach*/
+ #TKP-00055ac8e510671c
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Rhein-Kreis Neuss*/
+ #TKP-00055ac8e340416c
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Remscheid*/
+ #TKP-00055ac8e2c0146b
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Oberbergischer Kreis*/
+ #TKP-00055ac8e2f026d3
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Main-Kinzig-Kreis*/
+ #TKP-00055ac8e170138a
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Hochtaunuskreis*/
+ #TKP-00055ac8e2f024c2
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Lahn-Dill-Kreis*/
+ #TKP-00055ac8e6104322
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Siegen-Wittgenstein*/
+ #TKP-00055ac8e1801bb8
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Wetteraukreis*/
+ #TKP-00055ac8e140032d
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ 
+ /*  Hersfeld-Rotenburg*/
+ #TKP-00055ac8e1d0343f
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Waldeck-Frankenberg*/
+ #TKP-00055ac8e66061d0
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Kassel*/
+ #TKP-00055ac8e2305f36
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Aschaffenburg*/
+ #TKP-00055ac8e1901dbc
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Wuppertal*/
+ #TKP-00055ac8e5b02056
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Osnabr&uumlck*/
+ #TKP-00055ac8e40000cb
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  St&aumldteregion Aachen*/
+ #TKP-00055ac8e56005c3
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Saarlouis*/
+ #TKP-00055ac8e5a01a33
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+  
+  /*  Rhein-Hunsr&uumlck-Kreis*/
+ #TKP-00055ac8e37053cd
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Main-Taunus-Kreis*/
+ #TKP-00055ac8e5e032c4
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Rheingau-Taunus-Kreis*/
+ #TKP-00055ac8e67067f9
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Frankfurt am Main*/
+ #TKP-00055ac8e11072d6
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Frankenthal(Pfalz)*/
+ #TKP-00055ac8e4501f7f
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Altenkirchen (Westerwald)*/
+ #TKP-00055ac8e6104533
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Darmstadt*/
+ #TKP-00055ac8e5507d96
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Rhein-Neckar-Kreis*/
+ #TKP-00055ac8e0f06683
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Neustadt an der Weinstra&szlige*/
+ #TKP-00055ac8e1e0408f
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Bernkastel-Wittlich*/
+ #TKP-00055ac8e7202551
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Main-Spessart*/
+ #TKP-00055ac8e67063d7
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Germersheim*/
+ #TKP-00055ac8e7001b1d
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Landau in der Pfalz*/
+ #TKP-00055ac8e310310e
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Rhein-Erft-Kreis*/
+ #TKP-00055ac8e7202340
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Schw&aumlbisch Hall*/
+ #TKP-00055ac8e7703dd9
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+  /*  Stuttgart*/
+ #TKP-00055ac8e7904a1e
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  G&oumlppingen*/
+ #TKP-00055ac8e77041fb
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Main-Tauber-Kreis*/
+ #TKP-00055ac8e3b06632
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ /*  Trier-Saarburg*/
+ #TKP-00055ac8e3e078a1
+  {
+	z-index:10000000;
+	position: relative;
+	fill: RGB(255,255,255); 
+ }
+ 
+ 
+ 
+/*Bottrop Opacity Text*/
+/*Zweite Lösung
+#TKP-00055ac8e520691d 
+{
+	opacity: 1; 
+}
+
+/*Opacity for Wesel
+#TKP-00055a64f94059b5
+{
+	opacity: 0.9;
+}
+/
+
+/*
+Here is the solution with the z-Index
+
+#TKP-11-7-2
+{
+	z-index:-1;
+	position: absolute;
+}
+
+#TKP-00055ac8e1901fcd
+{
+	z-index : 1000;
+	position : relative;
+}
+
+.TKP_FL
+{
+	z-Index:-1;
+	position: absolute;
+	
+}
+TKP-00055ac8e0f06894
+{
+	z-Index : 10;
+	position : relative;
+}
+
+
+*/
+
+
+/*Here is the solution with the Opacity*/
+
+/* Heilbronn*/
+
+/*
+#TKP-00055a6521705283
+{
+	stroke: RGB(22,22,239);
+	stroke-width: 0.2px;
+	fill: RGB(0,0,0);
+	
+	
+}
+
+/*Landdau in der Pfalz*/
+/*
+#TKP-00055a6504502c6b
+{
+	
+	
+}
+
+#TKP-00055a6521305051
+{
+	
+	
+}
+
+TKP-00055a6521c054b7
+{
+	
+	stroke: RGB(22,22,239);
+	stroke-width: 0.2px;
+	fill: RGB(0,0,0);
+}
+
+
+/*Pirmasens */
+/*
+#TKP-00055a6521004e22
+{
+	
+	stroke: RGB(22,22,239);
+	stroke-width: 0.2px;
+	fill: RGB(0,0,0);
+}
+
+/* Trier g-Id*/
+/*
+#TKP-00055a6519b012c8
+{
+	stroke: RGB(22,22,239);
+	stroke-width: 0.2px;
+	fill: RGB(0,0,0);
+}
+
+/*Westerwaldkreis */
+/*
+TKP-00055a64f6506bae
+{
+	
+}
+
+/*Baden Baden */
+/*
+
+# TKP-00055a6524705dd6
+{
+	stroke: RGB(22,22,239);
+	stroke-width: 0.2px;
+	fill: RGB(0,0,0);
+	
+}
+
+/* This is for Text */
+
+.TKP_TX
+{
+	stroke: none;
+	fill: RGB(0,0,0);
+	/*Opacity Change*/
+	opacity: none;
+	font-family: ARIAL;
+	font-size: 10px;
+	text-anchor: middle;
+}
+
+
+/* This is for Polyline */
+
+.T1N_LT
+{
+	stroke: RGB(255,255,255);
+	stroke-width: 1.0px;
+	fill: none;
+	opacity: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+/* This is for Fett Polyline */
+
+.ZNP_LT, .ZNP_LT1, .ZNP_LT2, .ZNP_LT3, .ZNP_LT4
+{
+	stroke: RGB(225,127,39);
+	stroke-width: 5.0px;
+	fill: none;
+	opacity: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+/* This is for Kreis */
+.T1N_SY{
+	stroke: RGB(0, 26, 0);
+	stroke-width: 1.0px;
+	fill: none;
+	opacity: none;
+}
